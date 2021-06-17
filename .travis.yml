@@ -2,3 +2,6 @@ language: ruby
 rvm:
  - 2.2
  - jruby
+
+- name: Setup Go environment
+  uses: actions/setup-go@v2.1.3
